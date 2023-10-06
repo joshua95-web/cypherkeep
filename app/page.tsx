@@ -2,7 +2,7 @@ import Link from "next/link"
 export default function Home() {
   return (
     <main>
-      <div className="font font-sans flex min--screen">
+      <div className="font font-sans text-4xl flex min-w-screen items-center justify-center p-4 m-4">
         <h1>A Password Manager</h1>
       </div>
       <div className="font font-mono flex items-center justify-center flex-col text-4xl gap-5 m-4 p-4">
