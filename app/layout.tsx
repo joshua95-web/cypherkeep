@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -16,7 +17,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <nav><Image src="/public/cypherkeep-logo.png" alt="logo" width={500} height={100}/></nav>{children}</body>
     </html>
   )
 }
