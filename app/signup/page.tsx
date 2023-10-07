@@ -27,8 +27,10 @@ export default function signUp() {
     }
 
     return (
-        <div>
-            <form onSubmit={handleSubmit}>
+        <div className="font font-sans text-4xl flex flex-col min-w-screen items-center justify-center p-4 m-4 gap-20">
+          <div>Sign Up to Cypherkeep</div>
+          <div className="text-sky-500 text-2xl">All your passwords, locked up in the cloud and ready for you whenever you need them.</div>
+            <form onSubmit={handleSubmit} className="flex flex-col gap-20 text-orange-800">
                 <input
                     type="text"
                     name="username"
@@ -37,11 +39,11 @@ export default function signUp() {
                     />
                 <input
                     type="text"
-                    name="username"
+                    name="password"
                     onChange={handleChange}
-                    placeholder="Username"
+                    placeholder="Password"
                     />
-                    <button type="submit">Sign Up</button>
+                    <button type="submit" className="bg-sky-700 px-14 py-2 text-orange-400 rounded-3xl">Sign Up</button>
             </form>
         </div>
     )
