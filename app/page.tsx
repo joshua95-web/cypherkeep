@@ -5,10 +5,10 @@ export default function Home() {
       <div className="font font-sans text-4xl flex min-w-screen items-center justify-center p-4 m-4">
         <h1>A Password Manager</h1>
       </div>
-      <div className="font font-mono flex items-center justify-center flex-col text-4xl gap-5 m-4 p-4">
-        <Link href="/signup" className="bg-slate-800 p-4 text-orange-500 rounded-3xl">Sign Up</Link>
-        <Link href="/login" className="bg-slate-800 p-4 text-orange-500 rounded-3xl">Log In</Link>
-        <Link href="/about" className="bg-slate-800 p-4 text-orange-500 rounded-3xl">About</Link>
+      <div className="font font font-family Helvetica, Arial, sans-serif flex items-center justify-center flex-col text-3xl gap-7 m-4 p-4">
+        <Link href="/signup" className="bg-sky-900 px-14 py-2 text-orange-500 rounded-3xl">Sign Up</Link>
+        <Link href="/login" className="bg-sky-900 px-16 py-2 text-orange-500 rounded-3xl">Log In</Link>
+        <Link href="/about" className="bg-sky-900 px-16 py-2 text-orange-500 rounded-3xl">About</Link>
       </div>
       </main>
   );
