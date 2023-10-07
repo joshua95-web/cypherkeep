@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className='bg-white'>
+        <nav className='bg-black'>
           <Image 
         src={logo} 
         alt="logo" 
