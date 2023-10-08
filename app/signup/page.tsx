@@ -38,7 +38,7 @@ export default function signUp() {
                     placeholder="Username"
                     />
                 <input
-                    type="text"
+                    type="password"
                     name="password"
                     onChange={handleChange}
                     placeholder="Password"
