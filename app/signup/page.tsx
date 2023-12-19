@@ -27,7 +27,7 @@ export default function signUp() {
   }
 
   return (
-    <div className="font font-family Lucida Console, Monaco, monospace text-4xl flex flex-col min-w-screen items-center justify-center p-4 m-4 gap-20">
+    <div className="font font-family Lucida Console, Monaco, monospace text-4xl flex flex-col min-w-screen items-center justify-center p-20 m-20 gap-10 bg-gray-800">
       <div>Sign Up to Cypherkeep</div>
       <div className="text-sky-500 text-2xl">
         All your passwords, locked up in the cloud and ready for you whenever
@@ -35,17 +35,19 @@ export default function signUp() {
       </div>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-20 text-orange-800"
+        className="flex flex-col gap-10 text-orange-800"
       >
         <input
           type="text"
           name="username"
+          className="text-2xl p-2"
           onChange={handleChange}
           placeholder="Username"
         />
         <input
           type="password"
           name="password"
+          className="text-2xl p-2"
           onChange={handleChange}
           placeholder="Password"
         />
