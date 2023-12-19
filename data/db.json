@@ -1,9 +1,11 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "John Doe",
-      "email": "john@doe.co.uk"
+      "fname": "john",
+      "lname": "doe",
+      "email": "john@doe.co.uk",
+      "password": "p@s5w0rD-99",
+      "cpassword": "p@s5w0rD-99"
     }
   ]
 }
