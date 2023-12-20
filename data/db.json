@@ -5,16 +5,16 @@
       "fname": "john",
       "lname": "doe",
       "email": "john@doe.co.uk",
-      "password": "p@s5w0rD-99",
-      "cpassword": "p@s5w0rD-99"
+      "password": "password",
+      "cpassword": "password"
     },
     {
       "id": 2,
       "fname": "jane",
       "lname": "doe",
       "email": "jane@doe.co.uk",
-      "password": "muskRat-hYdrogen22",
-      "cpassword": "muskRat-hYdrogen22"
+      "password": "password",
+      "cpassword": "password"
     }
   ]
 }
