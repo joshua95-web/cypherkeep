@@ -6,13 +6,13 @@ export default function Home() {
         <h1>A Password Manager!</h1>
       </div>
       <div className="font font font-family Helvetica, Arial, sans-serif flex items-center justify-center flex-col text-3xl gap-7 m-4 p-4">
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           <Link href="/signup">Sign Up</Link>
         </button>
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           <Link href="/login">Log In</Link>
         </button>
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           <Link href="/about">About</Link>
         </button>
       </div>

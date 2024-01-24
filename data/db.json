@@ -15,6 +15,14 @@
       "email": "jane@doe.co.uk",
       "password": "password",
       "cpassword": "password"
+    },
+    {
+      "id": 3
+    },
+    {
+      "username": "John Doe",
+      "password": "password",
+      "id": 4
     }
   ]
 }
